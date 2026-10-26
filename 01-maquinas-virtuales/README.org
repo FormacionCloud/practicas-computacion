@@ -10,6 +10,7 @@ Esta práctica la realizaremos en el curso *Learner Lab* de AWS Academy.
 * Instrucciones
 ** Creación de una instancia con User-data y acceso a metadatos
 - Crea una *VPC que incluya una única subred pública*. La VPC debe ser de *nueva creación* y debe tener un nombre que incluya tu *nombre y apellidos*. Puedes utilizar el asistente o crear los componentes a mano, como prefieras. El objetivo es que las máquinas que se desplieguen en la única subred de la VPC reciban una *IP pública*, reciban un nombre *DNS* y admitan la conexión entrante desde Internet.
+  - Asegúrate de *configurar la subred* para activar la opción ~Enable auto-assign public IPv4 address~. De esta manera, las máquinas que se lancen en esa subred recibirán una *IP pública*.
 - Lanza una máquina *Ubuntu Server* en la subred pública de la VPC creada.
 - Asocia a la máquina un *grupo de seguridad* que permita el *tráfico entrante* al puerto *80* (HTTP) desde *cualquier IP*. El objetivo es montar un *servidor web* en dicha máquina.
 - Incluye un script ~User-data~ que realice las siguientes acciones:

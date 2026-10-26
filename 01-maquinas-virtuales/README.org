@@ -31,7 +31,7 @@ Esta práctica la realizaremos en el curso *Learner Lab* de AWS Academy.
 
 ** Creación de una AMI y lanzamiento de una segunda máquina
 - Crea una AMI a partir de la máquina que acabas de configurar.
-- Utiliza dicha AMI para lanzar otra máquina idéntica *en una AZ diferente* a la utilizada con la primera máquina. Antes de lanzar la nueva máquina a partir de la AMI, responde a las siguientes *preguntas* para que todo funcione correctamente:
+- Utiliza dicha AMI para lanzar otra máquina idéntica *en una AZ diferente* a la utilizada con la primera máquina. Pero antes, responde a las siguientes *preguntas* para que todo funcione correctamente:
   - ¿El servidor web de la nueva máquina va a mostrar la información correcta si directamente lo desplegamos a partir de la AMI sin ningún cambio o configuración adicional?
   - ¿Es necesario lanzar la nueva máquina con un script ~User-data~? ¿Por qué?
   - En caso de ser necesario lanzar la nueva máquina con un script ~User-data~, ¿utilizarías exactamente el mismo script creado para la primera máquina? ¿Por qué?
